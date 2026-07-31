@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # 源码仓库（私有），通过 PULL_TOKEN 拉取
-      SOURCE_REPO: github.com/wuwenquan888-max/Selene-TV
+      SOURCE_REPO: github.com/wuwenquan888-max/Selene-TV-source
 
     steps:
       - name: Clone source repository
