@@ -124,6 +124,6 @@ jobs:
           NOTES
             sed -i "s/__VERSION__/${VERSION}/g" notes.md
             gh release create "${VERSION}" dist/*.apk \
-              --title "Selene-TV ${VERSION}" \
+              --title "咔蔓TV ${VERSION}" \
               --notes-file notes.md
           fi
